@@ -3,12 +3,17 @@ plugins {
     application
     id("org.springframework.boot")
     id("io.spring.dependency-management")
+    id("org.openapi.generator")
 }
 
 configurations {
     compileOnly {
         extendsFrom(configurations.annotationProcessor.get())
     }
+}
+
+tasks.compileJava {
+    dependsOn(tasks.openApiGenerate)
 }
 
 dependencies {
