@@ -1,0 +1,272 @@
+openapi: '3.0.0'
+info:
+  title: 'Factory.io'
+  description: >
+    This service allow to operate an auromatic factory. **Factory.io** allows to
+    client:
+      1. View factory workshop information
+      2. View factory machines state
+      3. Configure factory workshop
+      4. Operate any workshop devices
+  
+  version: '0.1.0'
+
+tags:
+  - name: 'Workshop'
+    description: >
+      This API provides generic way to view factory data
+
+paths:
+
+  '/device/search':
+    get:
+      operationId: 'searchDevices'
+      summary: 'Search devices in workshop'
+      tags:
+        - 'Workshop'
+      description: >
+        This endpoint allows to search by specific attributes. Sorted by
+        `Device.id`.
+      
+      parameters:
+        - name: 'page'
+          in: 'query'
+          description: 'Device page number.'
+          schema:
+            type: 'integer'
+            minimum: 0
+            default: 0
+        
+        - name: 'pageSize'
+          in: 'query'
+          description: 'Device page size.'
+          schema:
+            type: 'integer'
+            minimum: 1
+            default: 100
+      
+      responses:
+        '200':
+          description: 'Found page for received parameters'
+          content:
+            'application/json':
+              schema:
+                '$ref': '#/components/schemas/DevicePage'
+        
+        '400':
+          description: 'Query parameter(s) not valid'
+        
+        default:
+          description: 'Unrecognized error occured'
+  
+  '/device/{id}':
+    get:
+      operationId: 'getDevice'
+      summary: 'Get single Device'
+      tags:
+        - 'Workshop'
+      description: 'This endpoint allows to retrieve single Device by `id`.'
+      parameters:
+        - name: 'id'
+          in: 'path'
+          required: true
+          schema:
+            type: 'string'
+            format: 'uuid'
+            description: 'Device identifier'
+            example: '552e386f-b35e-412e-910c-fa4345ebe387'
+      
+      responses:
+        '200':
+          description: 'Found a Device'
+          content:
+            'application/json':
+              schema:
+                '$ref': '#/components/schemas/Device'
+        
+        '400':
+          description: 'Device identifier is not valid'
+        
+        '404':
+          description: 'Device with current identifier not found'
+        
+        default:
+          description: 'Unexpected error occured'
+  
+  '/device/{id}/state':
+    get:
+      operationId: 'getDeviceState'
+      summary: 'Get actual Device state'
+      tags:
+        - 'Workshop'
+      description: 'This endpoint allows to retireve Device state only.'
+      parameters:
+        - name: 'id'
+          in: 'path'
+          required: true
+          schema:
+            type: 'string'
+            format: 'uuid'
+            description: 'Device identifier'
+            example: '552e386f-b35e-412e-910c-fa4345ebe387'
+      
+      responses:
+        '200':
+          description: 'Actual Device state'
+          content:
+            'application/json':
+              schema:
+                '$ref': '#/components/schemas/DeviceState'
+        
+        '400':
+          description: 'Device identifier is not valid'
+        
+        '404':
+          description: 'Device with current identifier not found'
+        
+        default:
+          description: 'Unexpected error occured'
+  
+  '/device/{id}/joints':
+    get:
+      operationId: 'getJointDevices'
+      summary: 'Get joint Devices in workshop'
+      tags:
+        - 'Workshop'
+      description: >
+        This endpoint allows to retrieve joined Devices in current workshop. The
+        result will be paginated and sorted by Device `id`.
+      parameters:
+        - name: 'id'
+          in: 'path'
+          required: true
+          schema:
+            type: 'string'
+            format: 'uuid'
+            description: 'Device identifier'
+            example: '552e386f-b35e-412e-910c-fa4345ebe387'
+        
+        - name: 'page'
+          in: 'query'
+          description: 'Device page number.'
+          schema:
+            type: 'integer'
+            minimum: 0
+            default: 0
+        
+        - name: 'pageSize'
+          in: 'query'
+          description: 'Device page size.'
+          schema:
+            type: 'integer'
+            minimum: 1
+            default: 100
+      
+      responses:
+        '200':
+          description: 'Founded page of joint Devices'
+          content:
+            'application/json':
+              schema:
+                '$ref': '#/components/schemas/DevicePage'
+        
+        '400':
+          description: 'One or more parameter(s) is(are) not valid'
+        
+        '404':
+          description: 'Device with current identifier not found'
+        
+        default:
+          description: 'Unexpected error occured'
+  
+components:
+    schemas:
+      Device:
+        type: 'object'
+        readOnly: true
+        required:
+          - 'id'
+          - 'model'
+          - 'state'
+        description: >
+          Represents a generic device in current workshop.
+        properties:
+          id:
+            type: 'string'
+            format: 'uuid'
+            description: 'Identifier of device in UUIDv4 format.'
+            example: '552e386f-b35e-412e-910c-fa4345ebe387'
+          model:
+            '$ref': '#/components/schemas/DeviceModel'
+                
+          state:
+            type: 'string'
+            description: 'Current state of device.'
+            example: 'IDLE'
+      
+      DeviceModel:
+        type: 'object'
+        readOnly: true
+        required:
+          - 'name'
+          - 'serialNumber'
+          - 'type'
+        description: 'Model of a generic device.'
+        properties:
+          name:
+            type: 'string'
+            description: 'Model name. Represent an indentifier of model.'
+            example: 'Assembeler Mk. II'
+          serialNumber:
+            type: 'string'
+            description: 'Current device serial number.'
+            example: 'AM2-00000000'
+          type:
+            type: 'string'
+            description: 'Device type.'
+            example: 'MACHINE'
+            enum:
+              - 'MACHINE'
+              - 'CONVEYOR'
+              - 'SENSOR'
+              - 'OPERATOR'
+      
+      DevicePage:
+        type: 'object'
+        readOnly: true
+        required:
+          - 'content'
+          - 'itemsNumber'
+          - 'totalItemsNumber'
+        description: 'Page of devices.'
+        properties:
+          content:
+            type: 'array'
+            items:
+              '$ref': '#/components/schemas/Device'
+          
+          itemsNumber:
+            type: 'integer'
+            description: 'Number of items on the page.'
+            minimum: 0
+            example: 42
+          
+          totalItemsNumber:
+            type: 'integer'
+            format: 'int64'
+            description: 'Total number of items satisfing the query.'
+            minimum: 0
+            example: 100500
+      
+      DeviceState:
+        type: 'object'
+        readOnly: true
+        required:
+          - 'state'
+        description: 'State of Device.'
+        properties:
+          state:
+            type: 'string'
+            description: 'Current state of device.'
+            example: 'IDLE'
+        
