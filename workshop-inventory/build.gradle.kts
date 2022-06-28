@@ -5,6 +5,10 @@ plugins {
 group = "io.factory.workshop"
 version = "0.1.0-SNAPSHOT"
 
+java.sourceSets["main"].java {
+    srcDir("$buildDir/generated/src/main/java")
+}
+
 tasks.openApiGenerate {
     generatorName.set("spring")
     inputSpec.set("$rootDir/openapi.yaml")
@@ -21,4 +25,9 @@ tasks.openApiGenerate {
     configOptions.put("documentationProvider", "none")
     configOptions.put("interfaceOnly", "true")
     configOptions.put("useSwaggerUI", "false")
+    configOptions.put("openApiNullable", "false")
+}
+
+dependencies {
+    implementation ("javax.validation:validation-api")
 }
