@@ -254,7 +254,7 @@ components:
           totalItemsNumber:
             type: 'integer'
             format: 'int64'
-            description: 'Total number of items satisfing the query.'
+            description: 'Total number of items satisfying the query.'
             minimum: 0
             example: 100500
       

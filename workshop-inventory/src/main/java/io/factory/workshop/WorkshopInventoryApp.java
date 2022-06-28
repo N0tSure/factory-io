@@ -7,6 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class WorkshopInventoryApp {
 	
 	public static void main(String[] args) {
-		SpringApplication.run(WorkshopManagementApp.class, args);
+		SpringApplication.run(WorkshopInventoryApp.class, args);
 	}
 }
