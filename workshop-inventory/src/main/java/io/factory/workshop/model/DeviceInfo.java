@@ -5,23 +5,23 @@ import lombok.Value;
 import java.util.UUID;
 
 /**
- * Represents an abstract factory workshop device.
+ * Represents factory workshop device info.
  */
 @Value
-public class Device {
+public class DeviceInfo {
 
     /**
-     * Device identifier.
+     * DeviceInfo identifier.
      */
     UUID id;
 
     /**
-     * Device state.
+     * DeviceInfo state.
      */
     State state;
 
     /**
-     * Device model.
+     * DeviceInfo model.
      */
     DeviceModel model;
 }

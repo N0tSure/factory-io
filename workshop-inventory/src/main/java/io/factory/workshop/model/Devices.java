@@ -1,24 +1,27 @@
 package io.factory.workshop.model;
 
-import lombok.Value;
+import lombok.*;
 
 import java.util.List;
 
 /**
  * Result of search Devices.
  */
-@Value
+@Getter
+@ToString
+@EqualsAndHashCode
+@RequiredArgsConstructor
 public class Devices {
 
     /**
      * Found devices.
      */
-    List<Device> content;
+    private final List<DeviceInfo> content;
 
     /**
      * Total number of devices satisfying request.
      */
-    long totalItems;
+    private final long totalItems;
 
     /**
      * Number of devices returned in current result.
