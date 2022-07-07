@@ -1,0 +1,210 @@
+[
+  {
+    "device_id": "f52f275e-5be4-4926-afd6-a90c23f154bc",
+    "joint_device_id": "045df1e9-df99-4b16-b8c4-b77cd78dc05f"
+  },
+  {
+    "device_id": "045df1e9-df99-4b16-b8c4-b77cd78dc05f",
+    "joint_device_id": "f52f275e-5be4-4926-afd6-a90c23f154bc"
+  },
+  {
+    "device_id": "045df1e9-df99-4b16-b8c4-b77cd78dc05f",
+    "joint_device_id": "a944d818-08aa-409b-8657-4f8a7f8ba043"
+  },
+  {
+    "device_id": "a944d818-08aa-409b-8657-4f8a7f8ba043",
+    "joint_device_id": "045df1e9-df99-4b16-b8c4-b77cd78dc05f"
+  },
+  {
+    "device_id": "f52f275e-5be4-4926-afd6-a90c23f154bc",
+    "joint_device_id": "9cb18123-d27d-4dbd-a092-0c20cd421576"
+  },
+  {
+    "device_id": "9cb18123-d27d-4dbd-a092-0c20cd421576",
+    "joint_device_id": "f52f275e-5be4-4926-afd6-a90c23f154bc"
+  },
+  {
+    "device_id": "9cb18123-d27d-4dbd-a092-0c20cd421576",
+    "joint_device_id": "5f805c29-2d35-4cb6-abae-2b7abdcd44c1"
+  },
+  {
+    "device_id": "5f805c29-2d35-4cb6-abae-2b7abdcd44c1",
+    "joint_device_id": "9cb18123-d27d-4dbd-a092-0c20cd421576"
+  },
+  {
+    "device_id": "4fe1ce1c-375a-42d5-9d6f-6081f5baf6c5",
+    "joint_device_id": "c2eaaaff-b35a-4235-aaa1-3ba280192f22"
+  },
+  {
+    "device_id": "c2eaaaff-b35a-4235-aaa1-3ba280192f22",
+    "joint_device_id": "4fe1ce1c-375a-42d5-9d6f-6081f5baf6c5"
+  },
+  {
+    "device_id": "c2eaaaff-b35a-4235-aaa1-3ba280192f22",
+    "joint_device_id": "06c06d50-1d65-4703-b7f5-c45f584a5862"
+  },
+  {
+    "device_id": "06c06d50-1d65-4703-b7f5-c45f584a5862",
+    "joint_device_id": "c2eaaaff-b35a-4235-aaa1-3ba280192f22"
+  },
+  {
+    "device_id": "4fe1ce1c-375a-42d5-9d6f-6081f5baf6c5",
+    "joint_device_id": "19937f14-9925-4f3f-820d-3db730646ab9"
+  },
+  {
+    "device_id": "19937f14-9925-4f3f-820d-3db730646ab9",
+    "joint_device_id": "4fe1ce1c-375a-42d5-9d6f-6081f5baf6c5"
+  },
+  {
+    "device_id": "19937f14-9925-4f3f-820d-3db730646ab9",
+    "joint_device_id": "f0b5584e-e144-49b1-8c54-c1fa6a4c8cd2"
+  },
+  {
+    "device_id": "f0b5584e-e144-49b1-8c54-c1fa6a4c8cd2",
+    "joint_device_id": "19937f14-9925-4f3f-820d-3db730646ab9"
+  },
+  {
+    "device_id": "f71f71b2-e448-42f4-8ee0-028b33425536",
+    "joint_device_id": "061eba94-7ed6-4749-87a1-693148105bc8"
+  },
+  {
+    "device_id": "061eba94-7ed6-4749-87a1-693148105bc8",
+    "joint_device_id": "f71f71b2-e448-42f4-8ee0-028b33425536"
+  },
+  {
+    "device_id": "061eba94-7ed6-4749-87a1-693148105bc8",
+    "joint_device_id": "fa155f1c-5a8b-487c-8d11-e5f80110f054"
+  },
+  {
+    "device_id": "fa155f1c-5a8b-487c-8d11-e5f80110f054",
+    "joint_device_id": "061eba94-7ed6-4749-87a1-693148105bc8"
+  },
+  {
+    "device_id": "f71f71b2-e448-42f4-8ee0-028b33425536",
+    "joint_device_id": "d0aab22e-d99f-4c59-a084-541885b09b48"
+  },
+  {
+    "device_id": "d0aab22e-d99f-4c59-a084-541885b09b48",
+    "joint_device_id": "f71f71b2-e448-42f4-8ee0-028b33425536"
+  },
+  {
+    "device_id": "d0aab22e-d99f-4c59-a084-541885b09b48",
+    "joint_device_id": "1c8efd35-5862-41d7-ba6a-79f856f953e4"
+  },
+  {
+    "device_id": "1c8efd35-5862-41d7-ba6a-79f856f953e4",
+    "joint_device_id": "d0aab22e-d99f-4c59-a084-541885b09b48"
+  },
+  {
+    "device_id": "e77adca6-b618-46bb-a24d-b49f90bc30cc",
+    "joint_device_id": "660bc2cd-d443-4511-8078-7d6c107cd83a"
+  },
+  {
+    "device_id": "660bc2cd-d443-4511-8078-7d6c107cd83a",
+    "joint_device_id": "e77adca6-b618-46bb-a24d-b49f90bc30cc"
+  },
+  {
+    "device_id": "660bc2cd-d443-4511-8078-7d6c107cd83a",
+    "joint_device_id": "97bca380-d6c1-40f4-8446-ddd076ce10e4"
+  },
+  {
+    "device_id": "97bca380-d6c1-40f4-8446-ddd076ce10e4",
+    "joint_device_id": "660bc2cd-d443-4511-8078-7d6c107cd83a"
+  },
+  {
+    "device_id": "e77adca6-b618-46bb-a24d-b49f90bc30cc",
+    "joint_device_id": "51719197-8ba0-4f3e-837f-25fe15f458a2"
+  },
+  {
+    "device_id": "51719197-8ba0-4f3e-837f-25fe15f458a2",
+    "joint_device_id": "e77adca6-b618-46bb-a24d-b49f90bc30cc"
+  },
+  {
+    "device_id": "51719197-8ba0-4f3e-837f-25fe15f458a2",
+    "joint_device_id": "c1b785bd-c7b2-489d-8b97-7978fc25a4de"
+  },
+  {
+    "device_id": "c1b785bd-c7b2-489d-8b97-7978fc25a4de",
+    "joint_device_id": "51719197-8ba0-4f3e-837f-25fe15f458a2"
+  },
+  {
+    "device_id": "b2a37bd0-040e-48df-b215-6c722d0bc81e",
+    "joint_device_id": "f8a47623-9957-4fd6-bd48-3873f3ede6e5"
+  },
+  {
+    "device_id": "f8a47623-9957-4fd6-bd48-3873f3ede6e5",
+    "joint_device_id": "b2a37bd0-040e-48df-b215-6c722d0bc81e"
+  },
+  {
+    "device_id": "f8a47623-9957-4fd6-bd48-3873f3ede6e5",
+    "joint_device_id": "685d007c-0003-4f0f-9a0d-574cf9cea11c"
+  },
+  {
+    "device_id": "685d007c-0003-4f0f-9a0d-574cf9cea11c",
+    "joint_device_id": "f8a47623-9957-4fd6-bd48-3873f3ede6e5"
+  },
+  {
+    "device_id": "973de304-a941-4948-85b7-d53a55359bfe",
+    "joint_device_id": "e05e6186-0a71-4fe4-9d70-41b77e51a164"
+  },
+  {
+    "device_id": "e05e6186-0a71-4fe4-9d70-41b77e51a164",
+    "joint_device_id": "973de304-a941-4948-85b7-d53a55359bfe"
+  },
+  {
+    "device_id": "e05e6186-0a71-4fe4-9d70-41b77e51a164",
+    "joint_device_id": "a985494d-d682-49b5-befe-02d097065a0c"
+  },
+  {
+    "device_id": "a985494d-d682-49b5-befe-02d097065a0c",
+    "joint_device_id": "e05e6186-0a71-4fe4-9d70-41b77e51a164"
+  },
+  {
+    "device_id": "f3935a24-8f9a-45a7-a527-6a7d3df24524",
+    "joint_device_id": "54951051-a1da-400c-bb65-10df496126b3"
+  },
+  {
+    "device_id": "54951051-a1da-400c-bb65-10df496126b3",
+    "joint_device_id": "f3935a24-8f9a-45a7-a527-6a7d3df24524"
+  },
+  {
+    "device_id": "54951051-a1da-400c-bb65-10df496126b3",
+    "joint_device_id": "cd27e95e-0e4a-4e42-bfe2-872e8202c73b"
+  },
+  {
+    "device_id": "cd27e95e-0e4a-4e42-bfe2-872e8202c73b",
+    "joint_device_id": "54951051-a1da-400c-bb65-10df496126b3"
+  },
+  {
+    "device_id": "32b4e8d4-e38b-4569-ae09-6e543d056b29",
+    "joint_device_id": "bf207c83-3e9a-4a99-82f9-ecf0fd79054b"
+  },
+  {
+    "device_id": "bf207c83-3e9a-4a99-82f9-ecf0fd79054b",
+    "joint_device_id": "32b4e8d4-e38b-4569-ae09-6e543d056b29"
+  },
+  {
+    "device_id": "bf207c83-3e9a-4a99-82f9-ecf0fd79054b",
+    "joint_device_id": "24cd859e-b78d-45eb-ac1c-41649e128d17"
+  },
+  {
+    "device_id": "24cd859e-b78d-45eb-ac1c-41649e128d17",
+    "joint_device_id": "bf207c83-3e9a-4a99-82f9-ecf0fd79054b"
+  },
+  {
+    "device_id": "24cd859e-b78d-45eb-ac1c-41649e128d17",
+    "joint_device_id": "64c21cb9-449f-4235-9058-e8978f0f6407"
+  },
+  {
+    "device_id": "64c21cb9-449f-4235-9058-e8978f0f6407",
+    "joint_device_id": "24cd859e-b78d-45eb-ac1c-41649e128d17"
+  },
+  {
+    "device_id": "51c9f7a0-ca04-4909-afaa-417aa958f751",
+    "joint_device_id": "bf207c83-3e9a-4a99-82f9-ecf0fd79054b"
+  },
+  {
+    "device_id": "bf207c83-3e9a-4a99-82f9-ecf0fd79054b",
+    "joint_device_id": "51c9f7a0-ca04-4909-afaa-417aa958f751"
+  }
+]

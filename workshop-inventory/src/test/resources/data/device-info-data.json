@@ -1,0 +1,240 @@
+[
+  {
+    "id": "f52f275e-5be4-4926-afd6-a90c23f154bc",
+    "state": "IDLE",
+    "model": "Assembler Mk I",
+    "serial": "ASM1\\0605349",
+    "type": "MACHINE"
+  },
+  {
+    "id": "045df1e9-df99-4b16-b8c4-b77cd78dc05f",
+    "state": "WAIT_INPUT",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\498742338",
+    "type": "MACHINE"
+  },
+  {
+    "id": "9cb18123-d27d-4dbd-a092-0c20cd421576",
+    "state": "WAIT_INPUT",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\199216795",
+    "type": "MACHINE"
+  },
+  {
+    "id": "a944d818-08aa-409b-8657-4f8a7f8ba043",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\260400",
+    "type": "MACHINE"
+  },
+  {
+    "id": "5f805c29-2d35-4cb6-abae-2b7abdcd44c1",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\905264",
+    "type": "MACHINE"
+  },
+  {
+    "id": "4fe1ce1c-375a-42d5-9d6f-6081f5baf6c5",
+    "state": "WORKING",
+    "model": "Assembler Mk I",
+    "serial": "ASM1\\0266882",
+    "type": "MACHINE"
+  },
+  {
+    "id": "c2eaaaff-b35a-4235-aaa1-3ba280192f22",
+    "state": "WORKING",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\021391452",
+    "type": "MACHINE"
+  },
+  {
+    "id": "19937f14-9925-4f3f-820d-3db730646ab9",
+    "state": "OUTPUT_FULL",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\555310885",
+    "type": "MACHINE"
+  },
+  {
+    "id": "06c06d50-1d65-4703-b7f5-c45f584a5862",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\530103",
+    "type": "MACHINE"
+  },
+  {
+    "id": "f0b5584e-e144-49b1-8c54-c1fa6a4c8cd2",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\561686",
+    "type": "MACHINE"
+  },
+  {
+    "id": "f71f71b2-e448-42f4-8ee0-028b33425536",
+    "state": "WORKING",
+    "model": "Stone Furnace",
+    "serial": "FS\\0987676",
+    "type": "MACHINE"
+  },
+  {
+    "id": "061eba94-7ed6-4749-87a1-693148105bc8",
+    "state": "OUTPUT_FULL",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\008052345",
+    "type": "MACHINE"
+  },
+  {
+    "id": "d0aab22e-d99f-4c59-a084-541885b09b48",
+    "state": "WORKING",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\688164156",
+    "type": "MACHINE"
+  },
+  {
+    "id": "fa155f1c-5a8b-487c-8d11-e5f80110f054",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\512414",
+    "type": "MACHINE"
+  },
+  {
+    "id": "1c8efd35-5862-41d7-ba6a-79f856f953e4",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\287815",
+    "type": "MACHINE"
+  },
+  {
+    "id": "e77adca6-b618-46bb-a24d-b49f90bc30cc",
+    "state": "WORKING",
+    "model": "Stone Furnace",
+    "serial": "FS\\0320188",
+    "type": "MACHINE"
+  },
+  {
+    "id": "660bc2cd-d443-4511-8078-7d6c107cd83a",
+    "state": "WORKING",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\715597736",
+    "type": "MACHINE"
+  },
+  {
+    "id": "51719197-8ba0-4f3e-837f-25fe15f458a2",
+    "state": "WORKING",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\797280294",
+    "type": "MACHINE"
+  },
+  {
+    "id": "97bca380-d6c1-40f4-8446-ddd076ce10e4",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\215279",
+    "type": "MACHINE"
+  },
+  {
+    "id": "c1b785bd-c7b2-489d-8b97-7978fc25a4de",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\638831",
+    "type": "MACHINE"
+  },
+  {
+    "id": "b2a37bd0-040e-48df-b215-6c722d0bc81e",
+    "state": "OUTPUT_FULL",
+    "model": "Burner Miner",
+    "serial": "MDB\\0937845",
+    "type": "MACHINE"
+  },
+  {
+    "id": "f8a47623-9957-4fd6-bd48-3873f3ede6e5",
+    "state": "OUTPUT_FULL",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\521747298",
+    "type": "MACHINE"
+  },
+  {
+    "id": "685d007c-0003-4f0f-9a0d-574cf9cea11c",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\192943",
+    "type": "MACHINE"
+  },
+  {
+    "id": "973de304-a941-4948-85b7-d53a55359bfe",
+    "state": "WORKING",
+    "model": "Burner Miner",
+    "serial": "MDB\\0988338",
+    "type": "MACHINE"
+  },
+  {
+    "id": "e05e6186-0a71-4fe4-9d70-41b77e51a164",
+    "state": "WORKING",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\853815093",
+    "type": "MACHINE"
+  },
+  {
+    "id": "a985494d-d682-49b5-befe-02d097065a0c",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\809780",
+    "type": "MACHINE"
+  },
+  {
+    "id": "f3935a24-8f9a-45a7-a527-6a7d3df24524",
+    "state": "NO_RESOURCES",
+    "model": "Burner Miner",
+    "serial": "MDB\\0104919",
+    "type": "MACHINE"
+  },
+  {
+    "id": "54951051-a1da-400c-bb65-10df496126b3",
+    "state": "WAIT_INPUT",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\436587702",
+    "type": "MACHINE"
+  },
+  {
+    "id": "cd27e95e-0e4a-4e42-bfe2-872e8202c73b",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\957887",
+    "type": "MACHINE"
+  },
+  {
+    "id": "32b4e8d4-e38b-4569-ae09-6e543d056b29",
+    "state": "WORKING",
+    "model": "Offshore Pump",
+    "serial": "PO\\405413",
+    "type": "MACHINE"
+  },
+  {
+    "id": "bf207c83-3e9a-4a99-82f9-ecf0fd79054b",
+    "state": "WORKING",
+    "model": "Boiler",
+    "serial": "B\\511935",
+    "type": "MACHINE"
+  },
+  {
+    "id": "24cd859e-b78d-45eb-ac1c-41649e128d17",
+    "state": "WORKING",
+    "model": "Burner Inserter",
+    "serial": "INS\\1\\132627664",
+    "type": "MACHINE"
+  },
+  {
+    "id": "64c21cb9-449f-4235-9058-e8978f0f6407",
+    "state": "WORKING",
+    "model": "Item Storage / Small",
+    "serial": "STG\\I\\S\\178824",
+    "type": "MACHINE"
+  },
+  {
+    "id": "51c9f7a0-ca04-4909-afaa-417aa958f751",
+    "state": "WORKING",
+    "model": "Steam Engine",
+    "serial": "STENG\\747378",
+    "type": "MACHINE"
+  }
+]
