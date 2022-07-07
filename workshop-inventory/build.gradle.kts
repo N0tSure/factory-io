@@ -29,5 +29,6 @@ tasks.openApiGenerate {
 }
 
 dependencies {
-    implementation ("javax.validation:validation-api")
+    implementation("javax.validation:validation-api")
+    implementation("com.google.guava:guava:31.1-jre")
 }
